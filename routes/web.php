@@ -36,3 +36,7 @@ Route::get('/hello', function () {
         Route::get('/dashboard', function () { 
             return view('dashboard'); 
         }); 
+
+        Route::get('/profile', function () { 
+            return view('profile'); 
+            }); 
